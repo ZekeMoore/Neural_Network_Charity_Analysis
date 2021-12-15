@@ -23,28 +23,28 @@ The number of neurons, layers, and activation functions I selected for my neural
 Was the model able to achieve the target model performance?
 - The model was not able to reach the target 75%. The accuracy for my model was 69%.
 
-![](Resources/Model2.PNG)
+![](/Resources/Model2.PNG)
 
 The steps taken to try and increase model performance
 
 - Attempt 1: Removed additional feature, that is the 'USE_CASE' column. Rest of the model components stayed the same, however model accuracy went down to 63%. 
 
-![](Resources/Model3.PNG)
+![](/Resources/Model3.PNG)
 
-![](Resources/Model4.PNG)
+![](/Resources/Model4.PNG)
 
 -  Attempt 2: Adding Additional neurons to hidden layers and additional hidden layers are added. The accuracy went down again, this time it was 53%.
 
-![](Resources/Model5.PNG)
+![](/Resources/Model5.PNG)
 
-![](Resources/Model6.PNG)
+![](/Resources/Model6.PNG)
 
 - Attempt 3: Changing activation function of output layer from "sigmoid" to "tanh." The accuracy of the model went down even more to 50%.
 
-![](Resources/Model7.PNG)
+![](/Resources/Model7.PNG)
 
 
-![](Resources/Model8.PNG)
+![](/Resources/Model8.PNG)
 
 ## Summary 
 
