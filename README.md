@@ -18,33 +18,33 @@ Using Machine Learning and Neural Networks for this project, I used the features
 The number of neurons, layers, and activation functions I selected for my neural network model:
 - For my neural network model I had 2 hidden layers. My first layer had 80 neurons, the second has 30 there is also an output layer. The first and second hidden layer have the "relu" activation function and the activation function for the output layer is "sigmoid."
 
-![](Resources/Model1.PNG)
+![](https://github.com/ZekeMoore/Neural_Network_Charity_Analysis/blob/main/Resources/Model1.png)
 
 Was the model able to achieve the target model performance?
 - The model was not able to reach the target 75%. The accuracy for my model was 69%.
 
-![](/Resources/Model2.PNG)
+![](https://github.com/ZekeMoore/Neural_Network_Charity_Analysis/blob/main/Resources/Model2.png)
 
 The steps taken to try and increase model performance
 
 - Attempt 1: Removed additional feature, that is the 'USE_CASE' column. Rest of the model components stayed the same, however model accuracy went down to 63%. 
 
-![](/Resources/Model3.PNG)
+![](https://github.com/ZekeMoore/Neural_Network_Charity_Analysis/blob/main/Resources/Model3.png)
 
-![](/Resources/Model4.PNG)
+![](https://github.com/ZekeMoore/Neural_Network_Charity_Analysis/blob/main/Resources/Model4.png)
 
 -  Attempt 2: Adding Additional neurons to hidden layers and additional hidden layers are added. The accuracy went down again, this time it was 53%.
 
-![](/Resources/Model5.PNG)
+![](https://github.com/ZekeMoore/Neural_Network_Charity_Analysis/blob/main/Resources/Model5.png)
 
-![](/Resources/Model6.PNG)
+![](https://github.com/ZekeMoore/Neural_Network_Charity_Analysis/blob/main/Resources/Model6.png)
 
 - Attempt 3: Changing activation function of output layer from "sigmoid" to "tanh." The accuracy of the model went down even more to 50%.
 
-![](/Resources/Model7.PNG)
+![](https://github.com/ZekeMoore/Neural_Network_Charity_Analysis/blob/main/Resources/Model7.png)
 
 
-![](/Resources/Model8.PNG)
+![](https://github.com/ZekeMoore/Neural_Network_Charity_Analysis/blob/main/Resources/Model8.png)
 
 ## Summary 
 
